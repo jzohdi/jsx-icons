@@ -1,1 +1,1 @@
-export{default as PencilBoldIcon}from"./icons/PencilBoldIcon.js";export{withColor,withSize}from"./icons/utils.js";
+export{default as PencilBoldIcon}from"./icons/PencilBoldIcon.js";export{withDefaults}from"./icons/utils.js";

@@ -10,7 +10,6 @@ type IconProps = {
     color?: string;
 };
 declare const _default: (props: IconProps) => JSX.Element;
-declare function withSize(Component: (props: IconProps) => JSX.Element): (props: IconProps) => JSX.Element;
-declare function withColor(Component: (props: IconProps) => JSX.Element): (props: IconProps) => JSX.Element;
-export { _default as PencilBoldIcon, withSize, withColor };
+declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: IconProps) => JSX.Element;
+export { _default as PencilBoldIcon, withDefaults };
 //# sourceMappingURL=index.cjs.d.ts.map
