@@ -1,0 +1,1 @@
+import e from"react";import{withDefaults as r}from"./utils.js";var t=r((function(r){return e.createElement("svg",Object.assign({},r,{viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg"}),e.createElement("circle",{cx:"8",cy:"8",r:"8",fill:r.color}))}));export{t as default};

@@ -13,5 +13,6 @@ declare function withDefaults(Component: (props: IconProps) => JSX.Element): (pr
 declare const _default: (props: IconProps) => JSX.Element;
 declare const _default: (props: IconProps) => JSX.Element;
 declare const _default: (props: IconProps) => JSX.Element;
-export { withDefaults, _default as PencilBoldIcon, _default as CursorClickIcon, _default as SquareBoldIcon };
+declare const _default: (props: IconProps) => JSX.Element;
+export { withDefaults, _default as PencilBoldIcon, _default as CursorClickIcon, _default as SquareBoldIcon, _default as CircleBoldIcon };
 //# sourceMappingURL=index.cjs.d.ts.map
