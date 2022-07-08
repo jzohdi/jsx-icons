@@ -10,6 +10,7 @@
   "types": "dist/index.cjs.d.ts",
   "sideEffects": false,
   "scripts": {
+    "GI": "npx ts-node scripts/generateIcon.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o ./docs",
@@ -46,6 +47,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-ts": "^3.0.2",
+    "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
   }
 }

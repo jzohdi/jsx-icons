@@ -9,8 +9,9 @@ type IconProps = {
     size?: number;
     color?: string;
 };
-declare const _default: (props: IconProps) => JSX.Element;
-declare const _default: (props: IconProps) => JSX.Element;
 declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: IconProps) => JSX.Element;
-export { _default as PencilBoldIcon, _default as CusorClickIcon, withDefaults };
+declare const _default: (props: IconProps) => JSX.Element;
+declare const _default: (props: IconProps) => JSX.Element;
+declare const _default: (props: IconProps) => JSX.Element;
+export { withDefaults, _default as PencilBoldIcon, _default as CursorClickIcon, _default as SquareBoldIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

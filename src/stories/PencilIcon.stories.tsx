@@ -1,6 +1,6 @@
 import React from "react";
 import { Story } from "@storybook/react";
-import PencilBoldIcon from "../icons/PencilBoldIcon";
+import { PencilBoldIcon } from "../../src";
 import { IconProps } from "../icons/types";
 
 export default {

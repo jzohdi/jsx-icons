@@ -1,1 +1,1 @@
-{"version":3,"file":"index.cjs.d.ts","sourceRoot":"","sources":["../src/index.ts","../src/icons/types.ts","../src/icons/utils.tsx","../src/icons/PencilBoldIcon.tsx","../src/icons/CursorClickIcon.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;AAAA,OAAO,wEAA6B,CAA+B"}
+{"version":3,"file":"index.cjs.d.ts","sourceRoot":"","sources":["../src/index.ts","../src/icons/types.ts","../src/icons/utils.tsx","../src/icons/PencilBoldIcon.tsx","../src/icons/CursorClickIcon.tsx","../src/icons/SquareBoldIcon.tsx"],"names":[],"mappings":""}

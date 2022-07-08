@@ -1,13 +1,13 @@
 import React from "react";
 import { Story } from "@storybook/react";
+import { SquareBoldIcon } from "../../src";
 import { IconProps } from "../icons/types";
-import { CursorClickIcon } from "../../src";
 
 export default {
-  title: "CusorClick",
-  component: CursorClickIcon,
+  title: "SquareBoldIcon",
+  component: SquareBoldIcon,
 };
 
-const Template: Story<IconProps> = (args) => <CursorClickIcon {...args} />;
+const Template: Story<IconProps> = (args) => <SquareBoldIcon {...args} />;
 
 export const DefaultColorAndSize = Template.bind({});
