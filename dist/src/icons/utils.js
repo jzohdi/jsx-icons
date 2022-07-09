@@ -1,1 +1,0 @@
-import{__rest as t}from"../../node_modules/tslib/tslib.es6.js";import e from"react";function o(o){return function(i){const{size:r,width:n,height:s,color:c}=i,h=t(i,["size","width","height","color"]);return e.createElement(o,Object.assign({},h,{width:n||r||20,height:s||r||20,color:c||"#111827"}))}}export{o as withDefaults};

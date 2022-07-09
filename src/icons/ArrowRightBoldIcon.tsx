@@ -1,10 +1,12 @@
-import React from "react";
-import { IconProps } from "./types";
-import { withDefaults } from "./utils";
+import React, { ReactElement } from "react";
+import { JSXIconProps } from "../types";
+import { useDefaults } from "../utils";
 
-export default withDefaults(function ArrowRightBoldIcon(
-  props: IconProps
-): JSX.Element {
+export default function ArrowRightBoldIcon(
+  iconProps: JSXIconProps
+): ReactElement<any, any> {
+  const props = useDefaults(iconProps);
+
   return (
     <svg
       {...props}
@@ -20,4 +22,4 @@ export default withDefaults(function ArrowRightBoldIcon(
       />
     </svg>
   );
-});
+}

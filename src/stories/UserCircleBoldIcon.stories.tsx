@@ -1,15 +1,15 @@
 import React from "react";
 import { Story } from "@storybook/react";
-import { ArrowRightBoldIcon } from "../../src";
+import { UserCircleBoldIcon } from "../../src";
 import { JSXIconProps } from "../types";
 
 export default {
-  title: "ArrowRightBoldIcon",
-  component: ArrowRightBoldIcon,
+  title: "UserCircleBoldIcon",
+  component: UserCircleBoldIcon,
 };
 
 const Template: Story<JSXIconProps> = (args) => (
-  <ArrowRightBoldIcon {...args} />
+  <UserCircleBoldIcon {...args} />
 );
 
 export const DefaultColorAndSize = Template.bind({});

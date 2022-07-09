@@ -1,5 +1,4 @@
-/// <reference types="react" />
-import { CSSProperties } from "react";
+import { ReactElement, CSSProperties } from "react";
 type SizeProp = number | string;
 type IconProps = {
     width: SizeProp;
@@ -12,13 +11,13 @@ type IconProps = {
 type JSXIconProps = Partial<IconProps> & {
     size?: SizeProp;
 };
-declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-declare const _default: (props: JSXIconProps) => JSX.Element;
-export { withDefaults, _default as PencilBoldIcon, _default as CursorClickIcon, _default as SquareBoldIcon, _default as CircleBoldIcon, _default as DiamondBoldIcon, _default as HorizontalLineIcon, _default as ArrowRightBoldIcon };
+declare function PencilBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function CursorClickIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function SquareBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function CircleBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function DiamondBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function HorizontalLineIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function ArrowRightBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+declare function UserCircleBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

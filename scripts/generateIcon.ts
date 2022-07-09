@@ -43,17 +43,19 @@ function formatName(name: string) {
 
 function getTsx(name: string): string {
   return `
-import React from "react";
-import { IconProps } from "./types";
-import { withDefaults } from "./utils";
+import React, { ReactElement } from "react";
+import { JSXIconProps } from "../types";
+import { useDefaults } from "../utils";
 
-export default withDefaults(function ${name}(
-	props: IconProps
-): JSX.Element {
+export default function ${name}(
+iconProps: JSXIconProps
+): ReactElement<any, any> {
+	const props = useDefaults(iconProps);
+
 	return (
 	
 	)
-})
+}
 `;
 }
 
@@ -62,15 +64,15 @@ function getStory(name: string): string {
 import React from "react";
 import { Story } from "@storybook/react";
 import { ${name} } from "../../src";
-import { IconProps } from "../icons/types";
+import { JSXIconProps } from "../types";
 
 export default {
 	title: "${name}",
 	component: ${name},
 };
 
-const Template: Story<IconProps> = (args) => <${name} {...args} />;
+const Template: Story<JSXIconProps> = (args) => <${name} {...args} />
 
-export const DefaultColorAndSize = Template.bind({});	
+export const DefaultColorAndSize = Template.bind({});
 `;
 }

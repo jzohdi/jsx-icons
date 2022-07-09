@@ -1,3 +1,4 @@
-/// <reference types="react" />
-declare const _default: (props: import("../../types-aab67c39").JSXIconProps) => JSX.Element;
-export { _default as default };
+import { ReactElement } from "react";
+import { JSXIconProps } from "../../types-aab67c39";
+declare function CircleBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { CircleBoldIcon as default };

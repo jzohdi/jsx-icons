@@ -1,10 +1,11 @@
-import React from "react";
-import { IconProps } from "./types";
-import { withDefaults } from "./utils";
+import React, { ReactElement } from "react";
+import { JSXIconProps } from "../types";
+import { useDefaults } from "../utils";
 
-export default withDefaults(function HorizontalLineIcon(
-  props: IconProps
-): JSX.Element {
+export default function HorizontalLineIcon(
+  iconProps: JSXIconProps
+): ReactElement<any, any> {
+  const props = useDefaults(iconProps);
   return (
     <svg
       {...props}
@@ -12,7 +13,7 @@ export default withDefaults(function HorizontalLineIcon(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <line y1="1.5" x2="24" y2="1.5" stroke="black" stroke-width="3" />
+      <line y1="1.5" x2="24" y2="1.5" stroke="black" strokeWidth="3" />
     </svg>
   );
-});
+}

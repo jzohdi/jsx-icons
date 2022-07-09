@@ -1,13 +1,13 @@
 import React from "react";
 import { Story } from "@storybook/react";
 import { SquareBoldIcon } from "../../src";
-import { IconProps } from "../icons/types";
+import { JSXIconProps } from "../types";
 
 export default {
   title: "SquareBoldIcon",
   component: SquareBoldIcon,
 };
 
-const Template: Story<IconProps> = (args) => <SquareBoldIcon {...args} />;
+const Template: Story<JSXIconProps> = (args) => <SquareBoldIcon {...args} />;
 
 export const DefaultColorAndSize = Template.bind({});

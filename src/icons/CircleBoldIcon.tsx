@@ -1,10 +1,11 @@
-import React from "react";
-import { IconProps } from "./types";
-import { withDefaults } from "./utils";
+import React, { ReactElement } from "react";
+import { JSXIconProps } from "../types";
+import { useDefaults } from "../utils";
 
-export default withDefaults(function CircleBoldIcon(
-  props: IconProps
-): JSX.Element {
+export default function CircleBoldIcon(
+  iconProps: JSXIconProps
+): ReactElement<any, any> {
+  const props = useDefaults(iconProps);
   return (
     <svg
       {...props}
@@ -15,4 +16,4 @@ export default withDefaults(function CircleBoldIcon(
       <circle cx="8" cy="8" r="8" fill={props.color} />
     </svg>
   );
-});
+}
