@@ -1,0 +1,1 @@
+import e from"react";import{withDefaults as t}from"./utils.js";var r=t((function(t){return e.createElement("svg",Object.assign({},t,{viewBox:"0 0 24 3",fill:"none",xmlns:"http://www.w3.org/2000/svg"}),e.createElement("line",{y1:"1.5",x2:"24",y2:"1.5",stroke:"black","stroke-width":"3"}))}));export{r as default};
