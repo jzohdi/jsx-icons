@@ -18,7 +18,7 @@ fs.writeFile(pathToSrcIcon, tsxFile, { flag: "wx" }, function (err) {
 
 // add export default in src/index.ts
 const pathToIndex = path.join("src", "index.ts");
-const dataForIndex = `export { default as ${iconName} } from "./icons/${iconName}";`;
+const dataForIndex = `\nexport { default as ${iconName} } from "./icons/${iconName}";`;
 
 fs.appendFile(pathToIndex, dataForIndex, function (err) {
   if (err) throw err;
