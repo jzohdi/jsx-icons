@@ -1,12 +1,12 @@
 import React from "react";
-import { IconProps } from "./types";
+import { IconProps, JSXIconProps } from "./types";
 
 const defaultWidth = 20;
 const defaultHeight = 20;
 const defaultColor = "#111827";
 
 export function withDefaults(Component: (props: IconProps) => JSX.Element) {
-  function makeDefaults(props: IconProps) {
+  function makeDefaults(props: JSXIconProps) {
     const { size, width, height, color, ...rest } = props;
     return (
       <Component

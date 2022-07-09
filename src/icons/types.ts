@@ -1,11 +1,14 @@
 import { CSSProperties } from "react";
 
+export type SizeProp = number | string;
+
 export type IconProps = {
-  width?: number;
-  height?: number;
+  width: SizeProp;
+  height: SizeProp;
   onClick?: () => void;
   className?: string;
   style?: CSSProperties;
-  size?: number;
-  color?: string;
+  color: string;
 };
+
+export type JSXIconProps = Partial<IconProps> & { size?: SizeProp };

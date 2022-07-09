@@ -1,4 +1,3 @@
 /// <reference types="react" />
-import { IconProps } from "../../types-473aae9e";
-declare const _default: (props: IconProps) => JSX.Element;
+declare const _default: (props: import("../../types-aab67c39").JSXIconProps) => JSX.Element;
 export { _default as default };

@@ -1,18 +1,22 @@
 /// <reference types="react" />
 import { CSSProperties } from "react";
+type SizeProp = number | string;
 type IconProps = {
-    width?: number;
-    height?: number;
+    width: SizeProp;
+    height: SizeProp;
     onClick?: () => void;
     className?: string;
     style?: CSSProperties;
-    size?: number;
-    color?: string;
+    color: string;
 };
-declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: IconProps) => JSX.Element;
-declare const _default: (props: IconProps) => JSX.Element;
-declare const _default: (props: IconProps) => JSX.Element;
-declare const _default: (props: IconProps) => JSX.Element;
-declare const _default: (props: IconProps) => JSX.Element;
-export { withDefaults, _default as PencilBoldIcon, _default as CursorClickIcon, _default as SquareBoldIcon, _default as CircleBoldIcon };
+type JSXIconProps = Partial<IconProps> & {
+    size?: SizeProp;
+};
+declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: JSXIconProps) => JSX.Element;
+declare const _default: (props: JSXIconProps) => JSX.Element;
+declare const _default: (props: JSXIconProps) => JSX.Element;
+declare const _default: (props: JSXIconProps) => JSX.Element;
+declare const _default: (props: JSXIconProps) => JSX.Element;
+declare const _default: (props: JSXIconProps) => JSX.Element;
+export { withDefaults, _default as PencilBoldIcon, _default as CursorClickIcon, _default as SquareBoldIcon, _default as CircleBoldIcon, _default as DiamondBoldIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

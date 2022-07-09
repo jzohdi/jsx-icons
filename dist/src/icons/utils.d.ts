@@ -1,4 +1,4 @@
 /// <reference types="react" />
-import { IconProps } from "../../types-473aae9e";
-declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: IconProps) => JSX.Element;
+import { IconProps, JSXIconProps } from "../../types-aab67c39";
+declare function withDefaults(Component: (props: IconProps) => JSX.Element): (props: JSXIconProps) => JSX.Element;
 export { withDefaults };
