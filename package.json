@@ -1,6 +1,6 @@
 {
   "name": "@jzohdi/jsx-icons",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A library of icons written in jsx (react)",
   "files": [
     "dist/**"
