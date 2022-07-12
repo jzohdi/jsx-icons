@@ -19,5 +19,6 @@ declare function DiamondBoldIcon(iconProps: JSXIconProps): ReactElement<any, any
 declare function HorizontalLineIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function ArrowRightBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function UserCircleBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
-export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon };
+declare function EraserIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

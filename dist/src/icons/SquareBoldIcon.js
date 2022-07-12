@@ -1,1 +1,0 @@
-import t from"react";import{useDefaults as e}from"../utils.js";function r(r){const o=e(r);return t.createElement("svg",Object.assign({},o,{viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg"}),t.createElement("rect",{width:"16",height:"16",rx:"1",fill:o.color}))}export{r as default};

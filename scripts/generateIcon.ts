@@ -7,8 +7,13 @@ if (args.length < 3) {
 }
 
 const iconName = formatName(args[2]);
-const pathToSrcIcon = path.join("src", "icons", `${iconName}.tsx`);
+const pathToSrcIcon = path.join("src", `${iconName}.tsx`);
 const tsxFile = getTsx(iconName);
+
+if (fs.existsSync(pathToSrcIcon)) {
+  console.log(`Icon: ${iconName} already exists`);
+  process.exit(1);
+}
 
 // write to src/icon.tsx
 fs.writeFile(pathToSrcIcon, tsxFile, { flag: "wx" }, function (err) {
@@ -26,7 +31,7 @@ fs.appendFile(pathToIndex, dataForIndex, function (err) {
 });
 
 // add to stories;
-const pathToStory = path.join("src", "stories", `${iconName}.stories.tsx`);
+const pathToStory = path.join("stories", `${iconName}.stories.tsx`);
 const storyTemplate = getStory(iconName);
 
 fs.writeFile(pathToStory, storyTemplate, { flag: "wx" }, function (err) {
@@ -50,7 +55,7 @@ import { useDefaults } from "../utils";
 export default function ${name}(
 iconProps: JSXIconProps
 ): ReactElement<any, any> {
-	const props = useDefaults(iconProps);
+	const { color, ...props} = useDefaults(iconProps);
 
 	return (
 	
