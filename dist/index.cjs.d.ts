@@ -23,5 +23,6 @@ declare function EraserIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function RulerBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function UndoIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function RedoIcon(iconProps: JSXIconProps): ReactElement<any, any>;
-export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon };
+declare function MenuIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

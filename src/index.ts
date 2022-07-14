@@ -13,3 +13,4 @@ export { default as RulerBoldIcon } from "./RulerBoldIcon";
 
 export { default as UndoIcon } from "./UndoIcon";
 export { default as RedoIcon } from "./RedoIcon";
+export { default as MenuIcon } from "./MenuIcon";

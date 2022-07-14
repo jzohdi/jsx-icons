@@ -10,4 +10,5 @@ export { default as EraserIcon } from "./EraserIcon";
 export { default as RulerBoldIcon } from "./RulerBoldIcon";
 export { default as UndoIcon } from "./UndoIcon";
 export { default as RedoIcon } from "./RedoIcon";
+export { default as MenuIcon } from "./MenuIcon";
 //# sourceMappingURL=src/index.d.ts.map
