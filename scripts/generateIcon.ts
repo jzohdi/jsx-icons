@@ -23,7 +23,7 @@ fs.writeFile(pathToSrcIcon, tsxFile, { flag: "wx" }, function (err) {
 
 // add export default in src/index.ts
 const pathToIndex = path.join("src", "index.ts");
-const dataForIndex = `\nexport { default as ${iconName} } from "./icons/${iconName}";`;
+const dataForIndex = `\nexport { default as ${iconName} } from "./${iconName}";`;
 
 fs.appendFile(pathToIndex, dataForIndex, function (err) {
   if (err) throw err;
@@ -49,8 +49,8 @@ function formatName(name: string) {
 function getTsx(name: string): string {
   return `
 import React, { ReactElement } from "react";
-import { JSXIconProps } from "../types";
-import { useDefaults } from "../utils";
+import { JSXIconProps } from "./types";
+import { useDefaults } from "./utils";
 
 export default function ${name}(
 iconProps: JSXIconProps
@@ -68,8 +68,8 @@ function getStory(name: string): string {
   return `
 import React from "react";
 import { Story } from "@storybook/react";
-import { ${name} } from "../../src";
-import { JSXIconProps } from "../types";
+import { ${name} } from "../src";
+import { JSXIconProps } from "../src/types";
 
 export default {
 	title: "${name}",

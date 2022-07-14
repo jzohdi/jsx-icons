@@ -8,3 +8,8 @@ export { default as ArrowRightBoldIcon } from "./ArrowRightBoldIcon";
 
 export { default as UserCircleBoldIcon } from "./UserCircleBoldIcon";
 export { default as EraserIcon } from "./EraserIcon";
+
+export { default as RulerBoldIcon } from "./RulerBoldIcon";
+
+export { default as UndoIcon } from "./UndoIcon";
+export { default as RedoIcon } from "./RedoIcon";
