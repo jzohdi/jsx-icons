@@ -11,4 +11,6 @@ export { default as RulerBoldIcon } from "./RulerBoldIcon";
 export { default as UndoIcon } from "./UndoIcon";
 export { default as RedoIcon } from "./RedoIcon";
 export { default as MenuIcon } from "./MenuIcon";
+export { default as TrashCanBoldIcon } from "./TrashCanBoldIcon";
+export { default as TrashCanIcon } from "./TrashCanIcon";
 //# sourceMappingURL=src/index.d.ts.map
