@@ -13,4 +13,7 @@ export { default as RedoIcon } from "./RedoIcon";
 export { default as MenuIcon } from "./MenuIcon";
 export { default as TrashCanBoldIcon } from "./TrashCanBoldIcon";
 export { default as TrashCanIcon } from "./TrashCanIcon";
+export { default as BackIcon } from "./BackIcon";
+export { default as ForwardIcon } from "./ForwardIcon";
+export { default as DuplicateIcon } from "./DuplicateIcon";
 //# sourceMappingURL=src/index.d.ts.map
