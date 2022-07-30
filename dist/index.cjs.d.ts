@@ -29,5 +29,6 @@ declare function TrashCanIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function BackIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function ForwardIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function DuplicateIcon(iconProps: JSXIconProps): ReactElement<any, any>;
-export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon, TrashCanBoldIcon, TrashCanIcon, BackIcon, ForwardIcon, DuplicateIcon };
+declare function PaletteBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon, TrashCanBoldIcon, TrashCanIcon, BackIcon, ForwardIcon, DuplicateIcon, PaletteBoldIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

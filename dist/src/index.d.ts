@@ -16,4 +16,5 @@ export { default as TrashCanIcon } from "./TrashCanIcon";
 export { default as BackIcon } from "./BackIcon";
 export { default as ForwardIcon } from "./ForwardIcon";
 export { default as DuplicateIcon } from "./DuplicateIcon";
+export { default as PaletteBoldIcon } from "./PaletteBoldIcon";
 //# sourceMappingURL=src/index.d.ts.map
