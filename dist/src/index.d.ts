@@ -17,4 +17,5 @@ export { default as BackIcon } from "./BackIcon";
 export { default as ForwardIcon } from "./ForwardIcon";
 export { default as DuplicateIcon } from "./DuplicateIcon";
 export { default as PaletteBoldIcon } from "./PaletteBoldIcon";
+export { default as PhotographBoldIcon } from "./PhotographBoldIcon";
 //# sourceMappingURL=src/index.d.ts.map
