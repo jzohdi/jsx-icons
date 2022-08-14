@@ -19,3 +19,9 @@ export { default as DuplicateIcon } from "./DuplicateIcon";
 export { default as PaletteBoldIcon } from "./PaletteBoldIcon";
 
 export { default as PhotographBoldIcon } from "./PhotographBoldIcon";
+export { default as ChevronDownIcon } from "./ChevronDownIcon";
+export { default as ChevronRightIcon } from "./ChevronRightIcon";
+export { default as ChevronUpIcon } from "./ChevronUpIcon";
+export { default as ChevronLeftIcon } from "./ChevronLeftIcon";
+export { default as LibraryBoldIcon } from "./LibraryBoldIcon";
+export { default as KeyBoldIcon } from "./KeyBoldIcon";
