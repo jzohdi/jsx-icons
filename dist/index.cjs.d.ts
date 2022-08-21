@@ -37,5 +37,6 @@ declare function ChevronUpIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function ChevronLeftIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function LibraryBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function KeyBoldIcon(iconProps: JSXIconProps): ReactElement<any, any>;
-export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon, TrashCanBoldIcon, TrashCanIcon, BackIcon, ForwardIcon, DuplicateIcon, PaletteBoldIcon, PhotographBoldIcon, ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, ChevronLeftIcon, LibraryBoldIcon, KeyBoldIcon };
+declare function CheckCircleIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon, TrashCanBoldIcon, TrashCanIcon, BackIcon, ForwardIcon, DuplicateIcon, PaletteBoldIcon, PhotographBoldIcon, ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, ChevronLeftIcon, LibraryBoldIcon, KeyBoldIcon, CheckCircleIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

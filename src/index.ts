@@ -25,3 +25,4 @@ export { default as ChevronUpIcon } from "./ChevronUpIcon";
 export { default as ChevronLeftIcon } from "./ChevronLeftIcon";
 export { default as LibraryBoldIcon } from "./LibraryBoldIcon";
 export { default as KeyBoldIcon } from "./KeyBoldIcon";
+export { default as CheckCircleIcon } from "./CheckCircleIcon";
