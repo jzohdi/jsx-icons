@@ -25,4 +25,7 @@ export { default as ChevronLeftIcon } from "./ChevronLeftIcon";
 export { default as LibraryBoldIcon } from "./LibraryBoldIcon";
 export { default as KeyBoldIcon } from "./KeyBoldIcon";
 export { default as CheckCircleIcon } from "./CheckCircleIcon";
+export { default as DashboardIcon } from "./DashboardIcon";
+export { default as DocumentDuplicateIcon } from "./DocumentDuplicateIcon";
+export { default as CopyIcon } from "./CopyIcon";
 //# sourceMappingURL=src/index.d.ts.map
