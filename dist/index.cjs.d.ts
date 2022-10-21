@@ -41,5 +41,6 @@ declare function CheckCircleIcon(iconProps: JSXIconProps): ReactElement<any, any
 declare function DashboardIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function DocumentDuplicateIcon(iconProps: JSXIconProps): ReactElement<any, any>;
 declare function CopyIcon(iconProps: JSXIconProps): ReactElement<any, any>;
-export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon, TrashCanBoldIcon, TrashCanIcon, BackIcon, ForwardIcon, DuplicateIcon, PaletteBoldIcon, PhotographBoldIcon, ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, ChevronLeftIcon, LibraryBoldIcon, KeyBoldIcon, CheckCircleIcon, DashboardIcon, DocumentDuplicateIcon, CopyIcon };
+declare function DownloadIcon(iconProps: JSXIconProps): ReactElement<any, any>;
+export { PencilBoldIcon, CursorClickIcon, SquareBoldIcon, CircleBoldIcon, DiamondBoldIcon, HorizontalLineIcon, ArrowRightBoldIcon, UserCircleBoldIcon, EraserIcon, RulerBoldIcon, UndoIcon, RedoIcon, MenuIcon, TrashCanBoldIcon, TrashCanIcon, BackIcon, ForwardIcon, DuplicateIcon, PaletteBoldIcon, PhotographBoldIcon, ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, ChevronLeftIcon, LibraryBoldIcon, KeyBoldIcon, CheckCircleIcon, DashboardIcon, DocumentDuplicateIcon, CopyIcon, DownloadIcon };
 //# sourceMappingURL=index.cjs.d.ts.map

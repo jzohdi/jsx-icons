@@ -28,4 +28,5 @@ export { default as CheckCircleIcon } from "./CheckCircleIcon";
 export { default as DashboardIcon } from "./DashboardIcon";
 export { default as DocumentDuplicateIcon } from "./DocumentDuplicateIcon";
 export { default as CopyIcon } from "./CopyIcon";
+export { default as DownloadIcon } from "./DownloadIcon";
 //# sourceMappingURL=src/index.d.ts.map
