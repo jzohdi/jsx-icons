@@ -2,6 +2,10 @@
   "name": "@jzohdi/jsx-icons",
   "version": "0.0.25",
   "description": "A library of icons written in jsx (react)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzohdi/jsx-icons.git"
+  },
   "files": [
     "dist/**"
   ],
@@ -15,8 +19,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o ./docs",
     "build": "rm -rf ./dist && rollup -c",
+    "prepublishOnly": "npm run build",
     "add": "npm run build && npm run build-storybook && git add -A",
-    "push": "npm version patch && git push"
+    "push": "npm version patch && git push --atomic --follow-tags",
+    "test:smoke": "playwright test"
   },
   "keywords": [],
   "author": "",
@@ -26,28 +32,41 @@
     "react-dom": ">= 17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.6",
-    "@babel/plugin-transform-runtime": "^7.18.6",
-    "@babel/preset-react": "^7.18.6",
-    "@rollup/plugin-babel": "^5.3.1",
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-essentials": "^6.5.9",
-    "@storybook/addon-interactions": "^6.5.9",
-    "@storybook/addon-links": "^6.5.9",
-    "@storybook/builder-webpack5": "^6.5.9",
-    "@storybook/manager-webpack5": "^6.5.9",
-    "@storybook/react": "^6.5.9",
-    "@storybook/testing-library": "^0.0.13",
-    "@types/react": "^18.0.14",
-    "babel-loader": "^8.2.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "rollup": "^2.75.7",
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-transform-runtime": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@playwright/test": "^1.64.1",
+    "@rollup/plugin-babel": "^7.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.2",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@types/react": "^18.3.31",
+    "babel-loader": "^8.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.67.4",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-ts": "^3.0.2",
-    "ts-node": "^10.8.2",
-    "typescript": "^4.7.4"
+    "rollup-plugin-ts": "~3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "allowScripts": {
+    "core-js": false,
+    "core-js-pure": false,
+    "fsevents": false
+  },
+  "overrides": {
+    "@storybook/react-docgen-typescript-plugin": "1.0.6--canary.9.0c3f3b7.0",
+    "react-docgen-typescript": "2.2.2",
+    "browserslist@4.20.2": "4.29.5",
+    "trim@0.0.1": "0.0.3",
+    "@babel/runtime@<7.26.10": "7.29.10",
+    "@babel/core@7.12.9": "7.29.7"
   }
 }
