@@ -20,7 +20,7 @@
     "build-storybook": "build-storybook -o ./docs",
     "build": "rm -rf ./dist && rollup -c",
     "add": "npm run build && npm run build-storybook && git add -A",
-    "push": "npm version patch && git push --follow-tags",
+    "push": "npm version patch && git push --atomic --follow-tags",
     "test:smoke": "playwright test"
   },
   "keywords": [],
