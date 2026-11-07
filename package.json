@@ -64,6 +64,7 @@
     "@storybook/react-docgen-typescript-plugin": "1.0.6--canary.9.0c3f3b7.0",
     "react-docgen-typescript": "2.2.2",
     "browserslist@4.20.2": "4.29.5",
-    "trim@0.0.1": "0.0.3"
+    "trim@0.0.1": "0.0.3",
+    "@babel/runtime@<7.26.10": "7.29.10"
   }
 }
