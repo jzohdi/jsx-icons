@@ -65,6 +65,7 @@
     "react-docgen-typescript": "2.2.2",
     "browserslist@4.20.2": "4.29.5",
     "trim@0.0.1": "0.0.3",
-    "@babel/runtime@<7.26.10": "7.29.10"
+    "@babel/runtime@<7.26.10": "7.29.10",
+    "@babel/core@7.12.9": "7.29.7"
   }
 }
