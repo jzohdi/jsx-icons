@@ -8,7 +8,9 @@ const defaultColor = "#111827";
 export function withDefaults(
   Component: (props: IconProps) => ReactElement<any, any>
 ) {
-  function makeDefaults(props: JSXIconProps) {
+  // Annotated so the declaration keeps saying `JSX.Element`: TypeScript 5.1+ with
+  // @types/react 18.3 would infer `React.JSX.Element`, which older @types/react lack.
+  function makeDefaults(props: JSXIconProps): JSX.Element {
     const { size, width, height, color, ...rest } = props;
     return (
       <Component
