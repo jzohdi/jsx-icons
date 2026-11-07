@@ -2,3 +2,6 @@
 # Playwright smoke test output
 /test-results
 /playwright-report
+
+# build output: dist/ is built in CI before publishing
+/dist

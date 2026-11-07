@@ -2,6 +2,10 @@
   "name": "@jzohdi/jsx-icons",
   "version": "0.0.25",
   "description": "A library of icons written in jsx (react)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzohdi/jsx-icons.git"
+  },
   "files": [
     "dist/**"
   ],
@@ -16,7 +20,7 @@
     "build-storybook": "build-storybook -o ./docs",
     "build": "rm -rf ./dist && rollup -c",
     "add": "npm run build && npm run build-storybook && git add -A",
-    "push": "npm version patch && git push",
+    "push": "npm version patch && git push --follow-tags",
     "test:smoke": "playwright test"
   },
   "keywords": [],
